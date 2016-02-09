@@ -1,3 +1,9 @@
 name: Purbohadi Utomo
 description: Problem solver
 avatar: https://en.gravatar.com/gravatars/edit-rating/9647f652969140052c13fc48f9ac33aa
+kramdown:
+  input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate

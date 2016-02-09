@@ -8,7 +8,7 @@ Some information about you!
 
 ### More Information
 
-I love :ice_cream: , :laughing: , :books: , :soccer: .
+I love :ice_cream: :laughing: :books: :soccer: .
 
 ### Contact me
 

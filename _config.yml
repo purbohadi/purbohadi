@@ -55,7 +55,7 @@ baseurl: ""
 timezone: Asia/Bangkok
 markdown: kramdown
 highlighter: rouge
-permalink: /post/:title/
+permalink: /post/:title
 
 paginate: 5
 paginate_path: '/blog/:num/'

@@ -9,8 +9,9 @@ title: Articles
 
 <div id="post-content">
     {% if paginator.posts %}
+        <div class="posts">
         {% for post in paginator.posts %}
-            <div class="posts">
+            <article  class="post">
                 <header class="post-header">
                     <h4 class="post-title"><a href="{{ post.url }}/">{{ post.title }}</a><small> &ndash; <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small></h4>
                 </header>
@@ -19,8 +20,9 @@ title: Articles
                 </div>
                 <a href="{{ post.url }}/" class="pull-right">Read more</a>
                 <div class="clearfix"></div>
-            </div>
+            </article>            
         {% endfor %}
+        </div>
     {% else %}
         <p>No posts found.</p>
     {% endif %}

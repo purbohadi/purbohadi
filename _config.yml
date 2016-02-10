@@ -27,7 +27,7 @@ footer-links:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: purboh
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/1611752/oep # your stackoverflow profile, e.g."users/1611752/oep"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -39,7 +39,7 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Your website URL (e.g. http://purbohadi.github.io or http://www.suprakarya.com)
 # Used for Sitemap.xml and your RSS feed
 url:
 
@@ -50,7 +50,7 @@ url:
 baseurl: ""
 
 #
-# !! You don't need to change any of the configuration flags below !!
+# Change below configuration if needed
 #
 
 markdown: kramdown
@@ -68,7 +68,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jemoji
+  - jemoji # Create emoji 
 
 # Exclude these files from your production _site
 exclude:

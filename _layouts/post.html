@@ -3,7 +3,11 @@ layout: default
 published: true
 ---
 
-<p id="post-meta">{{ tags_content }}</p>
+---
+layout: default
+---
+
+{% assign post = page %}
 
 <!--
 <h1>Articles by tag :{{ page.tag }}</h1>
@@ -41,6 +45,7 @@ published: true
         {% assign tags_content = '' %}
     {% endif %}
     
+	<p id="post-meta">{{ tags_content }}</p>    
   </div>
 
   <div class="date">

@@ -1,3 +1,10 @@
+---
+layout: post
+title: How To Insert Images
+category: programming
+tags: [markdown, jekyll]
+---
+
 Here's our logo (hover to see the title text):
 
 Inline-style: 

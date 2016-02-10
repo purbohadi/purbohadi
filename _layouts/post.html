@@ -22,6 +22,19 @@ published: true
   <div class="entry">
     {{ content }}
     {% assign post = page %}
+        {% if post.category %}
+            {% for site_category in site.data.categories %}
+                {% if site_category.slug == post.category %}
+                    {% assign category = site_category %}
+                {% endif %}
+            {% endfor %}
+            {% if category %}
+                {% capture category_content %} in <span class="label" style="background-color:{{ category.color }}"><a href="/blog/category/{{ category.slug }}/">{{ category.name }}</a></span>{% endcapture %}
+            {% endif %}
+        {% else %}
+            {% assign category_content = '' %}
+        {% endif %}
+    
     {% if post.tags.size > 0 %}
         {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
         {% for post_tag in post.tags %}
@@ -39,7 +52,7 @@ published: true
         {% assign tags_content = '' %}
     {% endif %}
     
-        <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>
+        <p id="post-meta">{{ category_content }}{{ tags_content }}</p>
     </div>
 
   <div class="date">

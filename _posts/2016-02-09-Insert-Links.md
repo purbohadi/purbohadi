@@ -1,3 +1,10 @@
+---
+layout: post
+title: How To Insert Links
+category: programming
+tags: [markdown, jekyll]
+---
+
 [I'm an inline-style link](https://www.google.com)
 
 [I'm a reference-style link][Arbitrary case-insensitive reference text]

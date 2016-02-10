@@ -2,7 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
+
 
 Some information about you!
 
@@ -11,7 +13,7 @@ Some information about you!
 
 ### More Information
 
-I love :ice_cream: :laughing: :books: :soccer:
+I love eating :ice_cream:, :laughing: alot, reading :books:, watching :soccer: game.
 
 ### Contact me
 

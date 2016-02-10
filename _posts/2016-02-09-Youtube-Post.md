@@ -1,13 +1,9 @@
 ---
-published: false
----
-
----
 layout: post
 title: Youtube Post
 description: insert Youtube video in post 
 category: programming
-tags: [markdown, youtube]
+tags: [markdown, jekyll]
 ---
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=f17qe9vZ8RM

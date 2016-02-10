@@ -1,3 +1,10 @@
+---
+layout: post
+title: How To Create table
+category: programming
+tags: [markdown, jekyll]
+---
+
 Colons can be used to align columns.
 
  Tables        | Are           | Cool  |

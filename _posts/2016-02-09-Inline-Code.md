@@ -1,3 +1,10 @@
+---
+layout: post
+title: How To add inline code
+category: programming
+tags: [markdown, jekyll]
+---
+
 Inline `code` has `back-ticks around` it.
 
 ```javascript

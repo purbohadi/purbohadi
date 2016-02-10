@@ -1,3 +1,10 @@
+---
+layout: post
+title: How To Insert Word Emphasis
+category: programming
+tags: [markdown, jekyll]
+---
+
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.

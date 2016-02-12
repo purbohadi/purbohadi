@@ -3,6 +3,6 @@
 {% endcomment %}
 {% for tag in site.tags %}
   <span class="tag-cloud-{{ tag | last | size | times: 10 | divided_by: site.tags.size }}">
-  	<a href="{{ site.baseurl }}/blog/tag/{{ tag.slug }}/{{ tag | first | slugize] }}">{{ tag | first }}</a>
+  	<a href="{{ site.baseurl }}/blog/tag/{{ tag.slug }}/{{ tag | first | slugize] }}">{{ tag | first | slugize] }}</a>
   </span>
 {% endfor %}

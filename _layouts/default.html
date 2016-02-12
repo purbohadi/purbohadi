@@ -38,6 +38,12 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
+    
+    <div>
+    	<h2 class='title'>Tag Cloud</h2>
+    	{% include /tag_cloud %}
+    	<div class='clear'></div>
+    </div>    
 
     <div class="wrapper-footer">
       <div class="container">
@@ -46,7 +52,7 @@
         </footer>
       </div>
     </div>
-
+    
     {% include analytics.html %}
   </body>
 </html>

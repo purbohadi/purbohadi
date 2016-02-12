@@ -76,6 +76,7 @@ gems:
   - jemoji # Create emoji
   - jekyll-sitemap # Generate sitemap
   - jekyll-feed # Generate feed
+  - jekyll-seo-tag # Add seo function
 
 # Exclude these files from your production _site
 exclude:

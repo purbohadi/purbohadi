@@ -2,7 +2,7 @@
 layout: post
 title: How To Use Blockquotes
 category: programming
-tags: [markdown, jekyll]
+tags: [markdown]
 ---
 
 > Blockquotes are very handy in email to emulate reply text.

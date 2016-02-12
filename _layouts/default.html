@@ -37,13 +37,13 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+      <div>
+      	<h2 class='title'>Tag Cloud</h2>
+      	{% include tag_cloud.html %}
+      	<div class='clear'></div>
+      </div>    
     </div>
     
-    <div>
-    	<h2 class='title'>Tag Cloud</h2>
-    	{% include tag_cloud.html %}
-    	<div class='clear'></div>
-    </div>    
 
     <div class="wrapper-footer">
       <div class="container">

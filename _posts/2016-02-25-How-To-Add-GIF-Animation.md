@@ -17,6 +17,8 @@ The Syntax:
 ![Demo Screenshot 1][1]
 [1]: ./images/gifAnimation.gif
 
+```
+
 Try it yourself.
 
 [1]: ./images/gifAnimation.gif
